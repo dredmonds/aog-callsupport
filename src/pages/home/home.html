@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar color="ajw-pri-purple">
+    <ion-title text-center>
+      AJW AOG
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div padding>
+    <h1 class="title" (click)="OpenUrl()" text-center>
+      <ion-img class="title-image" src="./assets/imgs/logo.png" width="220" height="220"></ion-img>
+    </h1>
+  </div>
+  <div padding>
+    <button ion-button block color="ajw-pri-purple" (click)="launchDialer('+447831583205')">
+      <ion-icon name="ios-call-outline"></ion-icon>&nbsp;&nbsp;AOG UK
+    </button>
+    <ion-col>
+      <button ion-button block color="ajw-pri-blue" (click)="launchDialer('+18777802008')">
+        <ion-icon name="ios-call-outline"></ion-icon>&nbsp;&nbsp;AOG US
+      </button>
+    </ion-col>
+    <ion-col>
+      <a href="mailto:aog@ajw-group.com?cc=&subject=RE:%20General%20Enquiry&body=General%20enquiry%20message" style="text-decoration:none;">
+        <button ion-button block color="ajw-pri-grey">
+          <ion-icon name="ios-mail-outline"></ion-icon>&nbsp;&nbsp;General Enquiry
+        </button>
+      </a>
+    </ion-col>
+  </div>
+</ion-content>
