@@ -3,27 +3,55 @@
 @font-face {
   font-family: "Museo Sans";
   font-style: normal;
+  font-weight: 100;
+  src: local("Museo 100"), local("Museo-100-Regular"), url("../assets/fonts/MuseoSans-100.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  font-style: italic;
+  font-weight: 100;
+  src: local("Museo 100 Italic"), local("Museo-100-Italic"), url("../assets/fonts/MuseoSans-100Italic.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
   font-weight: 300;
-  src: local("Museo 300"), local("Museo-300-Regular"), url("../assets/fonts/MuseoSans-300.otf") format("opentype");
+  src: local("Museo 300"), local("Museo-300-Regular"), url("../assets/fonts/MuseoSans-300.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Museo Sans";
   font-style: italic;
   font-weight: 300;
-  src: local("Museo 300 Italic"), local("Museo-300-Italic"), url("../assets/fonts/MuseoSans-300Italic.otf") format("opentype");
+  src: local("Museo 300 Italic"), local("Museo-300-Italic"), url("../assets/fonts/MuseoSans-300Italic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Museo Sans";
   font-style: normal;
   font-weight: 500;
-  src: local("Museo 500"), local("Museo-500-Regular"), url("../assets/fonts/MuseoSans-500.otf") format("opentype");
+  src: local("Museo 500"), local("Museo-500-Regular"), url("../assets/fonts/MuseoSans-500.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Museo Sans";
   font-style: italic;
   font-weight: 500;
-  src: local("Museo 500 Italic"), local("Museo-500-Italic"), url("../assets/fonts/MuseoSans-500Italic.otf") format("opentype");
+  src: local("Museo 500 Italic"), local("Museo-500-Italic"), url("../assets/fonts/MuseoSans-500Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Museo 700"), local("Museo-700-Regular"), url("../assets/fonts/MuseoSans-700.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Museo 700 Italic"), local("Museo-700-Italic"), url("../assets/fonts/MuseoSans-700Italic.ttf") format("truetype");
 }
