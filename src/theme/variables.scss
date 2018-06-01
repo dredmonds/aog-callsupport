@@ -45,10 +45,24 @@ $colors: (
   ajw-pri-grey: #808284
 );
 
-// $toolbar-md-title-text-color: white;
-// $cordovaStatusbar.styleColor('black');
-// $cordovaStatusbar.styleHex('#000');
+$font-family-base: "Museo Sans" !default;
 
+.toolbar-title-md {
+  font-family: "Museo Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.toolbar-title-ios {
+  font-family: "Museo Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+body {
+  font-family: "Museo Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-weight: 300 !important;
+}
+h1, h2, button {
+  font-family: "Museo Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-weight: 300 !important;
+}
 
 
 // App iOS Variables
@@ -96,8 +110,9 @@ $colors: (
 @import "roboto";
 @import "noto-sans";
 
+
 // Museo Sans Fonts (AJW Corporate Branding)
 // --------------------------------------------------
 
-// @import "museo-sans";
+@import "../assets/fonts/museo-sans.scss";
 
